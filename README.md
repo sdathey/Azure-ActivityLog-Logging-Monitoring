@@ -70,4 +70,4 @@ In a previous project, Rayda Estate, a fictional company, deployed an Azure-base
 8. Click the down arrow of a log for a more in-depth analysis of the log. i.e.: You will see the caller, CallerIpAddress, EventSubmissionTimestamp [UTC], etc,...
 
 ## Conclusion
-The configuration was successful, The Azure's Activity log is being ingested into the Log Analytics workspace. This configuration would allow the monitoring of Azure Subscription-level logs through the Log Analytics workspace and Microsoft Sentinel. 
+The configuration of the diagnostic setting for Azure Monitor was successfully completed. As a result, the Activity log is now being ingested and stored within the designated Log Analytics workspace. This integration enables seamless monitoring of Azure Subscription-level logs, providing a comprehensive view of management and data plane operations across the entire Azure environment.
