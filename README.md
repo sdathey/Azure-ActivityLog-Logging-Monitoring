@@ -4,8 +4,7 @@
 
 ## Introduction
 
-In the previous project, Rayda Estate, a fictional company, deployed an Azure-based honeynet open to the Internet to attract  hackers. Log sources from various instances are collected in a Log Analytics workspace, enabling Microsoft Sentinel to generate attack maps, alerts, and incidents. Initial security metrics were measured over 24 hours in the insecure environment. Subsequently, security controls were implemented to fortify the environment, and metrics were measured for another 24 hours. One of those logs was Azure's Activity Log.
-Azure's Activity log is a comprehensive record of management and data plane operations on Azure resources. It captures diverse activities like resource creations, updates, deletions, and modifications, providing essential details such as operation type, resource involved, operation time, caller identity, and status. These logs are stored in Azure Monitor, enabling centralized access and management. Integration with monitoring and alerting tools facilitates customized dashboards, alerts, and compliance reports. I will configure the Azure monitor to send the Activity log to the logs Analytics workspace. 
+In a previous project, Rayda Estate, a fictional company, deployed an Azure-based honeynet to attract hackers from the Internet. Log sources were collected in a Log Analytics workspace, allowing Microsoft Sentinel to generate attack maps, alerts, and incidents. Initial security metrics were measured for 24 hours in the insecure environment. Afterward, security controls were implemented to strengthen the environment, and metrics were measured for another 24 hours. One of the logs collected was Azure's Activity Log. Azure's Activity log records data plane operations, capturing crucial details like operation type, resource, time, caller, and status. These logs are stored in Azure Monitor, providing centralized access and management. Integration with monitoring tools enables customized dashboards, alerts, and compliance reports. I will configure Azure Monitor to send the Activity log to the logs Analytics workspace for analysis.
 
 ## Step-By-Step Configuration Of Azure Activity Log Logging
 
@@ -25,7 +24,7 @@ Azure's Activity log is a comprehensive record of management and data plane oper
 
 ![Architecture Diagram](https://i.imgur.com/yGowO5L.jpg)
 
-6. From the Diagnostic setting page, select the appropriate subscription. In this case, it is "RaydaEstateProject" 
+6. From the Diagnostic setting page, select the appropriate Subscription. In this case, it is "RaydaEstateProject" 
 
 7. Click Add diagnostic setting to configure the Diagnostic setting
 
